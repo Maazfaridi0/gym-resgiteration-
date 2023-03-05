@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gym fitness</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(gymm.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+
+  }
+
+  .left {
+    display: inline-block;
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 100px;
+    width: 77px;
+    height: 67px;
+
+  }
+
+  .mid {
+
+    display: block;
+    width: 400px;
+    margin: 18px auto;
+
+  }
+
+  .right {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    display: inline-block;
+
+  }
+
+  .navbar {
+    display: inline-block;
+
+
+  }
+
+  .navbar li {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: gray;
+  }
+
+  .left img {
+    width: 60px;
+    height: 43px;
+    filter: invert(100%);
+    padding-left: 10px;
+  }
+
+  .left div {
+    text-align: center;
+    line-height: 13px;
+    text-shadow: white;
+
+  }
+
+  .btn {
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 4px;
+    text-shadow: black;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+  .container {
+    border: 2px solid white;
+    margin: 100px 350px;
+    width: 500px;
+    padding: 50px;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+
+  .container h3 {
+    font-size: 45px;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+  .formgrp input {
+    padding: 5px;
+    margin: 5px 5px;
+    text-align: center;
+    width: 500px;
+    text-decoration: black;
+  }
+
+  .container button {
+    width: 500px;
+  }
+
+  .time {
+    border: 2px solid white;
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  .time h4 {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    background-color: rgb(129, 106, 64);
+    
+
+  }
+</style>
+
+<body>
+  <header class="head">
+    <div class="left">
+      <img src="logoo.jpg" alt="error loading">
+      <div>fitness gym</div>
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li> <a href="#" class="active">HOME</a></li>
+        <li> <a href="#">REGISTER</a></li>
+        <li> <a href="#">ROUTINE</a></li>
+        <li> <a href="#">ABOUT US</a></li>
+
+      </ul>
+    </div>
+    <div class="right">
+      <button class="btn">call us</button>
+      <button class="btn">email us</button>
+    </div>
+    <div class="container">
+      <h3>join our best gym in delhi </h3>
+      <form action="noaction.php">
+        <div class="formgrp">
+          name: <input type="text" name="your name" placeholder="your name">
+          address:<input type="text" name="address" placeholder="your address">
+          phone:<input type="text" name="your name" placeholder="contact number">
+          your email:<input type="email" name="your name" placeholder="your email">
+        </div>
+        <button class="btn">
+          submit now
+        </button>
+      </form>
+
+    </div>
+    <div class="time">
+      <h4>GYM TIMING</h4>
+      <p> SUNDAY :5am to 9am</p>
+      <p> MONDAY :5am to 9am</p>
+      <p> TUESDAY:5am to 9am</p>
+      <p> WEDNESDAY :5am to 9am</p>
+      <p> THRUSDAY :5am to 9am</p>
+      <p> FRIDAY :5am to 9am</p>
+      <p> SATURDAY :closed</p>
+    </div>
+  </header>
+</body>
+
+</html>
